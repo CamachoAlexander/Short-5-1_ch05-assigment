@@ -59,5 +59,16 @@ footer p {
     --background-color: aliceblue;
     --accent-color: rebeccapurple;
     --text-black: black;
-   
+    }
+
+    p cite {
+    color: var(--accent-color); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+
+h1 cite, h2 cite {
+    color: inherit;
+    font-weight: inherit;
 }
