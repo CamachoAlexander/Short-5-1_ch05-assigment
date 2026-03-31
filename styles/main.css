@@ -31,7 +31,7 @@ footer {
 
 h1{ font-size: 150%;
 color:rebeccapurple}
-
+h2, blockquote {clear: left;}
 h2{ font-size: 125%;}
 h3{font-size: 115%;}
 h1, h2, h3, p, blockquote, ul, li {
