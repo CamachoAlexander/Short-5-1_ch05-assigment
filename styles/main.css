@@ -72,3 +72,8 @@ h1 cite, h2 cite {
     color: inherit;
     font-weight: inherit;
 }
+
+q {
+    font-family: inherit;
+    color: inherit;
+}
