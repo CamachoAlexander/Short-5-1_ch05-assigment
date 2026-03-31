@@ -1,0 +1,74 @@
+* {margin: 0%; 
+    padding: 0%;
+    box-sizing: border-box;
+}
+  
+   html {background-color: aliceblue;}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    width: 90%;
+    margin: 0 auto; 
+    border: 10px double rebeccapurple; 
+    background-color: white;
+    padding: 20px;   
+}
+
+main {
+   padding: 20px;
+
+
+}
+
+footer {  
+ border-top: 5px solid rebeccapurple;
+    margin-top: 5px;
+    padding-top: 5px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+h1{ font-size: 150%;
+color:rebeccapurple}
+
+h2{ font-size: 125%;}
+h3{font-size: 115%;}
+h1, h2, h3, p, blockquote, ul, li {
+    margin-bottom: 5px;}
+
+cite {color: rebeccapurple; font-style: normal; font-weight: bold;
+}
+
+img {float: left;
+margin-right: 20px;
+margin-bottom: 10px;
+}
+
+h3{clear: left;}
+
+footer p {
+    font-size: 90%;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px; color: black;
+}
+
+    :root {
+    --background-color: aliceblue;
+    --accent-color: rebeccapurple;
+    --text-black: black;
+    }
+
+    p cite {
+    color: var(--accent-color); 
+    font-style: normal; 
+    font-weight: bold;
+}
+
+
+h1 cite, h2 cite {
+    color: inherit;
+    font-weight: inherit;
+}
